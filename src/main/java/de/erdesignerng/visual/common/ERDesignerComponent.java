@@ -757,7 +757,7 @@ public final class ERDesignerComponent implements ResourceHelperProvider {
         entityButton = new DefaultToggleButton(entityAction);
         commentButton = new DefaultToggleButton(commentAction);
         viewButton = new DefaultToggleButton(viewAction);
-
+        
         ButtonGroup theGroup = new ButtonGroup();
         theGroup.add(handButton);
         theGroup.add(relationButton);
@@ -770,6 +770,25 @@ public final class ERDesignerComponent implements ResourceHelperProvider {
         theToolBar.add(relationButton);
         theToolBar.add(commentButton);
         theToolBar.add(viewButton);
+
+        // Tambahan
+        handButton.setToolTipText("Selection Tool");
+        relationButton.setToolTipText("Relation Edit Tool");
+        entityButton.setToolTipText("Entity Table Edit Tool");
+        commentButton.setToolTipText("Comment Tool");
+        viewButton.setToolTipText("View Edit Tool");
+
+        // Tambahan
+        theNewAction.setText("Create New Model");
+        theLoadAction.setText("Load Model");
+        theSaveAsAction.setText("Save Model As ...");
+        zoomInAction.setText("Zoom In");
+        zoomOutAction.setText("Zoom Out");
+
+        // Tambahan
+        theFileMenu.setToolTipText("File Menu");
+        theDBMenu.setToolTipText("Database Menu");
+        theViewMenu.setToolTipText("View Menu");
 
         intelligentLayoutCheckbox = new DefaultCheckBox(
                 ERDesignerBundle.INTELLIGENTLAYOUT);

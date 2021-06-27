@@ -114,6 +114,9 @@ public interface ERDesignerBundle {
 	/** . */
 	String VIEWTOOL = "VIEWTOOL";
 
+	/** . */
+	String HELPTOOL = "HELPTOOL";
+
 	/** \u005a\u006f\u006f\u006d. */
 	String ZOOM = "ZOOM";
 
