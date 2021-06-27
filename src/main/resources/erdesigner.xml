@@ -15,32 +15,32 @@
         <Entry id="NEWMODEL">
             <Text lang="de">Neues Modell</Text>
             <Text lang="en">New model</Text>
-            <Icon>/de/erdesignerng/icons/new.png</Icon>
+            <Icon>/de/erdesignerng/icons/icon/new.png</Icon>
         </Entry>
         <Entry id="SAVEMODEL">
             <Text lang="de">Modell speichern</Text>
             <Text lang="en">Save model</Text>
-            <Icon>/de/erdesignerng/icons/script_save.png</Icon>
+            <Icon>/de/erdesignerng/icons/icon/save.png</Icon>
         </Entry>
         <Entry id="SAVEMODELAS">
             <Text lang="de">Modell speichern als...</Text>
             <Text lang="en">Save model as...</Text>
-            <Icon>/de/erdesignerng/icons/script_save.png</Icon>
+            <Icon>/de/erdesignerng/icons/icon/save.png</Icon>
         </Entry>
         <Entry id="SAVEMODELTODB">
             <Text lang="de">Modell in Repository speichern...</Text>
             <Text lang="en">Save model to repository...</Text>
-            <Icon>/de/erdesignerng/icons/script_save.png</Icon>
+            <Icon>/de/erdesignerng/icons/icon/save.png</Icon>
         </Entry>
         <Entry id="LOADMODELFROMDB">
             <Text lang="de">Modell aus Repository laden...</Text>
             <Text lang="en">Load model from repository...</Text>
-            <Icon>/de/erdesignerng/icons/folder.png</Icon>
+            <Icon>/de/erdesignerng/icons/icon/folder.png</Icon>
         </Entry>
         <Entry id="LOADMODEL">
             <Text lang="de">Modell laden...</Text>
             <Text lang="en">Load model...</Text>
-            <Icon>/de/erdesignerng/icons/folder.png</Icon>
+            <Icon>/de/erdesignerng/icons/icon/folder.png</Icon>
         </Entry>
         <Entry id="EXITPROGRAM">
             <Text lang="de">Programm beenden</Text>
@@ -109,25 +109,30 @@
         <Entry id="ZOOMIN">
             <Text lang="de">Vergrößern</Text>
             <Text lang="en">Zoom in</Text>
-            <Icon>/de/erdesignerng/icons/magnifier_zoom_in.png</Icon>
+            <Icon>/de/erdesignerng/icons/icon/magnifier_zoom_in.png</Icon>
         </Entry>
         <Entry id="ZOOMOUT">
             <Text lang="de">Verkleinern</Text>
             <Text lang="en">Zoom out</Text>
-            <Icon>/de/erdesignerng/icons/magnifier_zoom_out.png</Icon>
+            <Icon>/de/erdesignerng/icons/icon/magnifier_zoom_out.png</Icon>
         </Entry>
         <Entry id="HAND">
-            <Icon>/de/erdesignerng/icons/hand.gif</Icon>
+            <Icon>/de/erdesignerng/icons/icon/hand.png</Icon>
         </Entry>
         <Entry id="ENTITY">
-            <Icon>/de/erdesignerng/icons/entity.gif</Icon>
+            <Icon>/de/erdesignerng/icons/icon/entity.png</Icon>
         </Entry>
         <Entry id="RELATION">
-            <Icon>/de/erdesignerng/icons/relation1.gif</Icon>
+            <Icon>/de/erdesignerng/icons/icon/relation.png</Icon>
         </Entry>
         <Entry id="VIEWTOOL">
-            <Icon>/de/erdesignerng/icons/view.gif</Icon>
+            <Icon>/de/erdesignerng/icons/icon/views_icon.png</Icon>
         </Entry>
+
+        <Entry id="HELPTOOL">
+            <Icon>/de/erdesignerng/icons/icon/help.png</Icon>
+        </Entry>
+
         <Entry id="ZOOM">
             <Text lang="de">Vergrößerung</Text>
             <Text lang="en">Zoom</Text>
@@ -179,7 +184,7 @@
         <Entry id="NEW">
             <Text lang="de">Neu</Text>
             <Text lang="en">New</Text>
-            <Icon>/de/erdesignerng/icons/new.png</Icon>
+            <Icon>/de/erdesignerng/icons/icon/new.png</Icon>
         </Entry>
         <Entry id="DELETE">
             <Text lang="de">Löschen</Text>
@@ -194,7 +199,7 @@
         <Entry id="OK">
             <Text lang="de">Ok</Text>
             <Text lang="en">Ok</Text>
-            <Icon>/de/erdesignerng/icons/script_save.png</Icon>
+            <Icon>/de/erdesignerng/icons/icon/save.png</Icon>
         </Entry>
         <Entry id="CANCEL">
             <Text lang="de">Abbrechen</Text>
@@ -540,7 +545,7 @@
             <Text lang="en">Domain editor...</Text>
         </Entry>
         <Entry id="COMMENT">
-            <Icon>/de/erdesignerng/icons/comment_add.gif</Icon>
+            <Icon>/de/erdesignerng/icons/icon/comment_add.png</Icon>
         </Entry>
         <Entry id="EXPORTINGTABLENEEDSPRIMARYKEY">
             <Text lang="de">Die exportierende Tabelle muss einen Primärschlüssel haben!</Text>
@@ -627,7 +632,7 @@
             <Text lang="en">Expression</Text>
         </Entry>
         <Entry id="NEWONLYICON">
-            <Icon>/de/erdesignerng/icons/new.png</Icon>
+            <Icon>/de/erdesignerng/icons/icon/new.png</Icon>
         </Entry>
         <Entry id="ATTRIBUTEALREADYPARTOFINDEX">
             <Text lang="de">Dieses Attribut ist bereits Teil des Indexes</Text>
